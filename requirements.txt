@@ -1,0 +1,11 @@
+torch>=2.2
+torchvision
+diffusers>=0.30
+peft>=0.12
+transformers
+accelerate
+datasets
+opencv-python
+numpy
+pandas
+matplotlib
