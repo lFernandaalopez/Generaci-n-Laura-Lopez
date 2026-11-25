@@ -1,6 +1,6 @@
 # Generación — DCGAN y modelos de difusión con diffusers
 
-**Especialización en Inteligencia Artificial · Jahir Ávila**
+**Especialización en Inteligencia Artificial · Laura Lopez**
 
 | # | Notebook | Contenido | Estado |
 |---|---|---|---|
