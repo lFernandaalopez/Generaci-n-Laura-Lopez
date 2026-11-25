@@ -1,0 +1,72 @@
+{
+  "pasos_pre": 2000,
+  "seg_pre": 1751.0740344524384,
+  "param_unet": 2734945,
+  "param_lora": 206592,
+  "pct_lora": 7.553789929962028,
+  "seg_lora": 165.362144947052,
+  "seg_full": 163.97679734230042,
+  "acc_clf": 0.8069,
+  "dist": {
+    "Base": {
+      "camiseta": 3.52,
+      "pantal\u00f3n": 5.08,
+      "su\u00e9ter": 58.2,
+      "vestido": 0.0,
+      "abrigo": 1.17,
+      "sandalia": 2.73,
+      "camisa": 4.69,
+      "tenis": 0.78,
+      "bolso": 16.8,
+      "bot\u00edn": 7.03
+    },
+    "LoRA": {
+      "camiseta": 0.39,
+      "pantal\u00f3n": 0.0,
+      "su\u00e9ter": 35.16,
+      "vestido": 0.0,
+      "abrigo": 0.0,
+      "sandalia": 0.0,
+      "camisa": 1.17,
+      "tenis": 0.0,
+      "bolso": 63.28,
+      "bot\u00edn": 0.0
+    },
+    "Fine-tuning completo": {
+      "camiseta": 0.0,
+      "pantal\u00f3n": 0.39,
+      "su\u00e9ter": 35.94,
+      "vestido": 0.0,
+      "abrigo": 0.0,
+      "sandalia": 0.0,
+      "camisa": 0.39,
+      "tenis": 0.0,
+      "bolso": 63.28,
+      "bot\u00edn": 0.0
+    }
+  },
+  "escala": {
+    "0.0": 16.8,
+    "0.25": 26.56,
+    "0.5": 41.41,
+    "0.75": 53.91,
+    "1.0": 63.28
+  },
+  "memorizacion": {
+    "LoRA (muestras 'bolso')": {
+      "dist. media al bolso de entrenamiento m\u00e1s cercano": 15.388,
+      "diversidad (dist. media entre pares)": 21.282
+    },
+    "Completo (muestras 'bolso')": {
+      "dist. media al bolso de entrenamiento m\u00e1s cercano": 14.29,
+      "diversidad (dist. media entre pares)": 20.536
+    },
+    "Bolsos reales de test": {
+      "dist. media al bolso de entrenamiento m\u00e1s cercano": 12.112,
+      "diversidad (dist. media entre pares)": 22.097
+    }
+  },
+  "mse_pre_final": 0.057044440791010856,
+  "mse_lora_final": 0.06624309651553631,
+  "mse_full_final": 0.0621158729493618
+}
